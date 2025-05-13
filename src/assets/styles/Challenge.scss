@@ -1,0 +1,202 @@
+.challenge-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 10%;
+  text-align: left;
+
+  p {
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+  padding: 0;
+  align-items: stretch;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 320px;
+  perspective: 1000px;
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.9s;
+    transform-style: preserve-3d;
+  }
+
+  &:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: justify;
+    font-size: 14px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+
+  .flip-card-front {
+    background-color: #eaeaea;
+  }
+
+  .flip-card-back {
+    background-color: #585858;
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-back p {
+    color: white;
+  }
+
+  .flip-card-front p {
+    color: black;
+  }
+
+  .flip-card {
+    .flip-card-inner,
+    .flip-card-front,
+    .flip-card-back {
+      height: 100%;
+    }
+  }
+
+  .emoji {
+    margin-bottom: 15px;
+    animation: bounce 2s infinite;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media screen {
+  @media (max-width: 575px) {
+    .challenge-container {
+      padding-top: 10%;
+    }
+
+    .flip-card {
+      height: auto;
+      min-height: 280px;
+    }
+  }
+
+  @media (min-width: 576px) and (max-width: 767px) {
+    .flip-card {
+      height: auto;
+      min-height: 290px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .challenge-container {
+      display: block;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 10%;
+    }
+
+    .cards-grid {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+
+    .flip-card p {
+      font-size: 12px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .flip-card {
+      height: auto;
+      min-height: 300px;
+    }
+  }
+
+  @media (min-width: 820px) and (max-width: 991px) {
+    .flip-card {
+      height: auto;
+      min-height: 360px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .challenge-container {
+      padding-top: 10%;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .flip-card {
+      height: auto;
+      min-height: 360px;
+    }
+  }
+
+  @media (min-width: 1280px) and (max-width: 1399px) {
+    .flip-card {
+      height: auto;
+      min-height: 330px;
+    }
+  }
+}
