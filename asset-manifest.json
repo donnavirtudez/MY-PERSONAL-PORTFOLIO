@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MY-PERSONAL-PORTFOLIO/static/css/main.6ad0ec15.css",
-    "main.js": "/MY-PERSONAL-PORTFOLIO/static/js/main.fd086d23.js",
+    "main.css": "/MY-PERSONAL-PORTFOLIO/static/css/main.812fd936.css",
+    "main.js": "/MY-PERSONAL-PORTFOLIO/static/js/main.e39fd032.js",
     "static/js/453.0067f206.chunk.js": "/MY-PERSONAL-PORTFOLIO/static/js/453.0067f206.chunk.js",
     "static/media/CS23.jpg": "/MY-PERSONAL-PORTFOLIO/static/media/CS23.6a25823cf8c65f895151.jpg",
     "static/media/RHINES.png": "/MY-PERSONAL-PORTFOLIO/static/media/RHINES.57d19481c38e382cb788.png",
@@ -32,12 +32,12 @@
     "static/media/award.jpg": "/MY-PERSONAL-PORTFOLIO/static/media/award.35d3c1388e15605d4655.jpg",
     "static/media/quizbee.jpg": "/MY-PERSONAL-PORTFOLIO/static/media/quizbee.f7d9362ffdc0cc4bc79e.jpg",
     "index.html": "/MY-PERSONAL-PORTFOLIO/index.html",
-    "main.6ad0ec15.css.map": "/MY-PERSONAL-PORTFOLIO/static/css/main.6ad0ec15.css.map",
-    "main.fd086d23.js.map": "/MY-PERSONAL-PORTFOLIO/static/js/main.fd086d23.js.map",
+    "main.812fd936.css.map": "/MY-PERSONAL-PORTFOLIO/static/css/main.812fd936.css.map",
+    "main.e39fd032.js.map": "/MY-PERSONAL-PORTFOLIO/static/js/main.e39fd032.js.map",
     "453.0067f206.chunk.js.map": "/MY-PERSONAL-PORTFOLIO/static/js/453.0067f206.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ad0ec15.css",
-    "static/js/main.fd086d23.js"
+    "static/css/main.812fd936.css",
+    "static/js/main.e39fd032.js"
   ]
 }
