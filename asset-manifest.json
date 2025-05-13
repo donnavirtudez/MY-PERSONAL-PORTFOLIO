@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/PERSONAL-PORTFOLIO/static/css/main.6ad0ec15.css",
+    "main.js": "/PERSONAL-PORTFOLIO/static/js/main.724cb262.js",
+    "static/js/453.b05d8aa5.chunk.js": "/PERSONAL-PORTFOLIO/static/js/453.b05d8aa5.chunk.js",
+    "static/media/CS23.jpg": "/PERSONAL-PORTFOLIO/static/media/CS23.6a25823cf8c65f895151.jpg",
+    "static/media/RHINES.png": "/PERSONAL-PORTFOLIO/static/media/RHINES.57d19481c38e382cb788.png",
+    "static/media/octet.png": "/PERSONAL-PORTFOLIO/static/media/octet.0058dece1dcf80481f93.png",
+    "static/media/nomnom.png": "/PERSONAL-PORTFOLIO/static/media/nomnom.6ef4496f7bdeadb8f125.png",
+    "static/media/bff.png": "/PERSONAL-PORTFOLIO/static/media/bff.66794c3bdc1cc6c0e9c5.png",
+    "static/media/project-1.png": "/PERSONAL-PORTFOLIO/static/media/project-1.5f98d83ce428a3af8abe.png",
+    "static/media/masters.png": "/PERSONAL-PORTFOLIO/static/media/masters.23c06c7e88682e7ab246.png",
+    "static/media/project-7.png": "/PERSONAL-PORTFOLIO/static/media/project-7.a4d068b13971950fbb35.png",
+    "static/media/Z.png": "/PERSONAL-PORTFOLIO/static/media/Z.85b07b93e9448a5a7ad8.png",
+    "static/media/bff2.png": "/PERSONAL-PORTFOLIO/static/media/bff2.dc447b94372d95aefb77.png",
+    "static/media/CTS.png": "/PERSONAL-PORTFOLIO/static/media/CTS.7a7b8015882204b27a28.png",
+    "static/media/project-4.png": "/PERSONAL-PORTFOLIO/static/media/project-4.10ac7723a831c266bc41.png",
+    "static/media/sxc.png": "/PERSONAL-PORTFOLIO/static/media/sxc.3e740c2f2241a394abdd.png",
+    "static/media/acadbuddies.png": "/PERSONAL-PORTFOLIO/static/media/acadbuddies.2704cd445a873ab8daeb.png",
+    "static/media/baby-me.jpg": "/PERSONAL-PORTFOLIO/static/media/baby-me.bf36c58b3d976ba73866.jpg",
+    "static/media/project-6.png": "/PERSONAL-PORTFOLIO/static/media/project-6.d8a14ca3cc0b39f9e1e8.png",
+    "static/media/donna_virtudez_cv.pdf": "/PERSONAL-PORTFOLIO/static/media/donna_virtudez_cv.2461308f8e359c500582.pdf",
+    "static/media/me.png": "/PERSONAL-PORTFOLIO/static/media/me.7b691226c6b33c376300.png",
+    "static/media/project-2.png": "/PERSONAL-PORTFOLIO/static/media/project-2.e5cb39ea530e39e07ea4.png",
+    "static/media/project-8.png": "/PERSONAL-PORTFOLIO/static/media/project-8.2e08069a38ef3cb3cd3c.png",
+    "static/media/QUINTECH.png": "/PERSONAL-PORTFOLIO/static/media/QUINTECH.bd1fd961c1c508a106fa.png",
+    "static/media/project-5.png": "/PERSONAL-PORTFOLIO/static/media/project-5.9e9443d26de215280f34.png",
+    "static/media/raze.png": "/PERSONAL-PORTFOLIO/static/media/raze.84f8a4d362247e50f205.png",
+    "static/media/avatar.png": "/PERSONAL-PORTFOLIO/static/media/avatar.84e06da525d2f17282b4.png",
+    "static/media/project-3.png": "/PERSONAL-PORTFOLIO/static/media/project-3.1bd1f95491cae5baddaf.png",
+    "static/media/mamalola.jpg": "/PERSONAL-PORTFOLIO/static/media/mamalola.8af97fcaaed827de01f9.jpg",
+    "static/media/award.jpg": "/PERSONAL-PORTFOLIO/static/media/award.35d3c1388e15605d4655.jpg",
+    "static/media/quizbee.jpg": "/PERSONAL-PORTFOLIO/static/media/quizbee.f7d9362ffdc0cc4bc79e.jpg",
+    "index.html": "/PERSONAL-PORTFOLIO/index.html",
+    "main.6ad0ec15.css.map": "/PERSONAL-PORTFOLIO/static/css/main.6ad0ec15.css.map",
+    "main.724cb262.js.map": "/PERSONAL-PORTFOLIO/static/js/main.724cb262.js.map",
+    "453.b05d8aa5.chunk.js.map": "/PERSONAL-PORTFOLIO/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ad0ec15.css",
+    "static/js/main.724cb262.js"
+  ]
+}
