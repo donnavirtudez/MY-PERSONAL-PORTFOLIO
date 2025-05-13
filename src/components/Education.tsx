@@ -29,7 +29,7 @@ function Education() {
             <h4 className="vertical-timeline-element-subtitle">
               Molino VI, Bacoor Cavite
             </h4>
-            <p>Bachelor of Science in Computer Science</p>
+            <p>Bachelor of Science in Computer Science (BSCS)</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
